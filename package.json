@@ -2,9 +2,9 @@
   "name": "kerem-our-first-module",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -13,13 +13,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/FILDEST/Kerem-Our-First-Module/issues"
   },
   "homepage": "https://github.com/FILDEST/Kerem-Our-First-Module#readme",
   "dependencies": {
+    "express": "^5.1.0",
     "lodash": "^4.17.21",
     "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
